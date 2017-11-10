@@ -17,7 +17,7 @@ import com.clj.fastble.scan.ListScanCallback;
 public class BleManager {
 
     private Context mContext;
-    private BleBluetooth bleBluetooth;
+    public BleBluetooth bleBluetooth;
     private DefaultBleExceptionHandler bleExceptionHandler;
 
     public BleManager(Context context) {
